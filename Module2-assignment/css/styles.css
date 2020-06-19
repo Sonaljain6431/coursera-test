@@ -1,13 +1,15 @@
     *{
         box-sizing: border-box;
         margin: 0px;
-        padding: 0px;
     }
     .row{
         width: 100%;
     }
     h1{
         text-align: center;
+    }
+    p{
+        padding: 5px;
     }
 
     /*Desktop view*/
@@ -23,7 +25,7 @@
             width:16.66%;
         }
         .col-lg-3{
-            width:33.33%;
+            width: 33.33%;
         }
         .col-lg-4{
             width:8.33%;
@@ -143,26 +145,22 @@
     }
     section{
         background-color: gray;
-        padding: 1px;
         border: 1px solid black;
-        width: 100%;
+        width: 98%;
         margin-top: 15px;
-        margin-right: 8px;
+        margin-right:4px;
+        margin-left: 4px;
         position: relative;
-        overflow: auto;
-        
+        overflow:auto;
     }
     #p1{
         border: 1px solid black;
         background-color: hotpink;
-        position:relative;
+        position: relative;
         width: 30%;
         font-weight: bold;
         margin-left: 70%;
-        margin-top:0;
         font-size: 120%;
-        text-align: center;
-        padding: 3px;
         text-align: center;
     }
     #p2{
@@ -174,8 +172,6 @@
         margin-left: 70%;
         font-size: 120%;
         text-align: center;
-        padding: 3px;
-        text-align: center;
     }
     #p3{
         border: 1px solid black;
@@ -185,8 +181,6 @@
         font-weight: bold;
         margin-left: 70%;
         font-size: 120%;
-        text-align: center;
-        padding: 3px;
         text-align: center;
     }
     
