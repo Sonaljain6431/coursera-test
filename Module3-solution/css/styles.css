@@ -1,0 +1,146 @@
+.navbar-header {
+  margin-top: -22px;
+  height:80%;
+
+}
+#header-nav{
+    background-color:#333333;
+}
+.navbar-brand h1{
+  font-family: 'Lora', serif;
+  color: #676845;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+  font-size: 1.1em;
+}
+.navbar-header button.navbar-toggle{
+  clear: both;
+  color: #ffffff;
+  border:black;
+  margin-top: -20px;
+}
+navbar-toggle.collapsed{
+    margin-top: -10px;
+    border-color:#ddd;
+}
+.container section{
+  margin: -10px auto -10px; 
+  background-color: #333333;
+  color: #ffffff;
+  padding: 10px;
+}
+div .navbar-brand{
+    padding-top:0.5em;
+}
+#nav-list{
+    background-color: #3e4de534;
+    text-align:center;
+    margin-top: 10px;
+}
+#nav-list a{
+  color: #5f6372;
+  text-align: center;
+}
+#nav-list a:hover{
+  background: #E7E7E7;
+}
+#nav-list a span{
+  /* font-size: 1.2em; */
+}
+.navbar-collapse{
+  margin-bottom: -10px;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  height: 3.5px;
+  width: 20px;
+}
+.navbar-default .navbar-toggle:hover{
+  background-color:gray;
+} 
+.navbar-toggle{
+  padding: 8px;
+}
+.navbar-nav{
+  margin:15px -15px;
+}
+.navbar{
+  border-width:0;
+  border-radius:0;
+}
+.container{
+  margin:-10px 10px 10px 10px;
+  padding:18px;
+}
+.row{
+  margin: 0;
+}
+.title{
+  font-size: 1.3em;
+} 
+.navbar-collapse.collapse.in, .navbar-collapse.collapsing{
+  background-color:#333333;
+}
+section{
+  border: 1px solid black;
+  background-color: gray;
+  margin-bottom: 15px;
+  padding: 4px 10px 10px;
+}
+li>a{
+  color:black;
+}
+
+@media(min-width: 1440px){
+  .hidden{
+    display:none !important;
+  }
+}
+@media(min-width: 1200px){
+  .container{
+  width:100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container{
+    width:100%;
+  }
+  #nav-list a span{
+    font-size: 2em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container{
+    width:100%;
+  }
+  #nav-list a span{
+    /* font-size: 4em; */
+  }
+  h2{
+    font-size:2em;
+  }
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .container{
+    width:100%;
+  }
+  #nav-list a span{
+      font-size:1.4em;
+  }
+  h2{
+    font-size:1.5em;
+  }
+}
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  .container{
+    width:100%;
+  }
+  #nav-list a span{
+      font-size:1.2em;
+  }
+  .navbar-brand h1{
+    font-size: 1.8em;
+  }
+}
